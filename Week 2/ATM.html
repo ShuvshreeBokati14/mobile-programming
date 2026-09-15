@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Simple ATM</title>
+</head>
+
+<body>
+
+    <h1>ATM Machine</h1>
+
+    <p>Please enter your PIN:</p>
+
+    <input type="password" id="pin" placeholder="Enter PIN">
+    <button onclick="checkPin()">Submit PIN</button>
+
+    <br><br>
+
+    <input type="number" id="amount" placeholder="Enter amount">
+
+    <br><br>
+
+    <button onclick="viewBalance()">Check Balance</button>
+    <button onclick="withdraw()">Withdraw Money</button>
+    <button onclick="deposit()">Deposit Money</button>
+
+    <p id="result"></p>
+
+    <script src="atm.js"></script>
+
+</body>
+
+</html>
